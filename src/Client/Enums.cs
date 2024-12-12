@@ -1,0 +1,29 @@
+﻿namespace Sharphound.Client
+{
+    public enum CollectionMethodOptions
+    {
+        None,
+        Group,
+        Session,
+        LoggedOn,
+        Trusts,
+        ACL,
+        ObjectProps,
+        RDP,
+        DCOM,
+        LocalAdmin,
+        PSRemote,
+        SPNTargets,
+        Container,
+        GPOLocalGroup,
+        LocalGroup,
+        UserRights,
+        Default,
+        DCOnly,
+        ComputerOnly,
+        CARegistry,
+        DCRegistry,
+        CertServices,
+        All
+    }
+}
